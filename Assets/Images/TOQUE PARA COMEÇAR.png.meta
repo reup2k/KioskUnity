@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 4967fd4b3d1aa47919e3855fcc5f1ac3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1649585430004427590
+    second: "TOQUE PARA COMEC\u0327AR_0"
+  - first:
+      213: -8570373942063168622
+    second: "TOQUE PARA COMEC\u0327AR_1"
+  - first:
+      213: 3103440903112641251
+    second: "TOQUE PARA COMEC\u0327AR_2"
+  - first:
+      213: -7711734961190677387
+    second: "TOQUE PARA COMEC\u0327AR_3"
+  - first:
+      213: 4837250525202042783
+    second: "TOQUE PARA COMEC\u0327AR_4"
+  - first:
+      213: -4704655083831615696
+    second: "TOQUE PARA COMEC\u0327AR_5"
+  - first:
+      213: -32573008097666179
+    second: "TOQUE PARA COMEC\u0327AR_6"
+  - first:
+      213: -2422905238400535329
+    second: "TOQUE PARA COMEC\u0327AR_7"
+  - first:
+      213: -7718497140267210154
+    second: "TOQUE PARA COMEC\u0327AR_8"
+  - first:
+      213: 2774080542293704874
+    second: "TOQUE PARA COMEC\u0327AR_9"
+  - first:
+      213: 7836424014653847146
+    second: "TOQUE PARA COMEC\u0327AR_10"
+  - first:
+      213: -50203885625431453
+    second: "TOQUE PARA COMEC\u0327AR_11"
+  - first:
+      213: 4329133056192427800
+    second: "TOQUE PARA COMEC\u0327AR_12"
+  - first:
+      213: 4692487714242871009
+    second: "TOQUE PARA COMEC\u0327AR_13"
+  - first:
+      213: 4575887006050848230
+    second: "TOQUE PARA COMEC\u0327AR_14"
+  - first:
+      213: -5914126617467230251
+    second: "TOQUE PARA COMEC\u0327AR_15"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 48
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab41de19ace7b19e0800000000000000
+      internalID: -1649585430004427590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_1"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 184
+        width: 46
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2938f07be4aef0980800000000000000
+      internalID: -8570373942063168622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_2"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 170
+        width: 51
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea42730f03a11b20800000000000000
+      internalID: 3103440903112641251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_3"
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 184
+        width: 47
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574d44c49e96af490800000000000000
+      internalID: -7711734961190677387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_4"
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 185
+        width: 43
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f4d3c49bd512340800000000000000
+      internalID: 4837250525202042783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_5"
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 185
+        width: 46
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f1b79a025b5beb0800000000000000
+      internalID: -4704655083831615696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_6"
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 185
+        width: 51
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b921f85074c8ff0800000000000000
+      internalID: -32573008097666179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_7"
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 185
+        width: 51
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4f3b4d58c106ed0800000000000000
+      internalID: -2422905238400535329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_8"
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 185
+        width: 51
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a218aceb362e490800000000000000
+      internalID: -7718497140267210154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_9"
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 16
+        width: 46
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa04db53e838f7620800000000000000
+      internalID: 2774080542293704874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_10"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 46
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6678c64f1290cc60800000000000000
+      internalID: 7836424014653847146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_11"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 17
+        width: 72
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aa3fef4d3ad4ff0800000000000000
+      internalID: -50203885625431453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_12"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 17
+        width: 43
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81730cfe39b241c30800000000000000
+      internalID: 4329133056192427800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_13"
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 46
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eeb458d6b01f1140800000000000000
+      internalID: 4692487714242871009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_14"
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 17
+        width: 51
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed8cf7ecf0d08f30800000000000000
+      internalID: 4575887006050848230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TOQUE PARA COMEC\u0327AR_15"
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 17
+        width: 52
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7ee210d2dcceda0800000000000000
+      internalID: -5914126617467230251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "TOQUE PARA COMEC\u0327AR_0": -1649585430004427590
+      "TOQUE PARA COMEC\u0327AR_1": -8570373942063168622
+      "TOQUE PARA COMEC\u0327AR_10": 7836424014653847146
+      "TOQUE PARA COMEC\u0327AR_11": -50203885625431453
+      "TOQUE PARA COMEC\u0327AR_12": 4329133056192427800
+      "TOQUE PARA COMEC\u0327AR_13": 4692487714242871009
+      "TOQUE PARA COMEC\u0327AR_14": 4575887006050848230
+      "TOQUE PARA COMEC\u0327AR_15": -5914126617467230251
+      "TOQUE PARA COMEC\u0327AR_2": 3103440903112641251
+      "TOQUE PARA COMEC\u0327AR_3": -7711734961190677387
+      "TOQUE PARA COMEC\u0327AR_4": 4837250525202042783
+      "TOQUE PARA COMEC\u0327AR_5": -4704655083831615696
+      "TOQUE PARA COMEC\u0327AR_6": -32573008097666179
+      "TOQUE PARA COMEC\u0327AR_7": -2422905238400535329
+      "TOQUE PARA COMEC\u0327AR_8": -7718497140267210154
+      "TOQUE PARA COMEC\u0327AR_9": 2774080542293704874
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
