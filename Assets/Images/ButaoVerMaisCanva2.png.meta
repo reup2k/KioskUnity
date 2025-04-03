@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2344f7c4d146e4cecb1e24d4ffa182bf
+guid: 779ee59659ec94a2c819ae87a1fdf473
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -655530477837142229
-    second: Skip previous_0
+      213: 5992176184148905921
+    second: ButaoVerMaisCanva2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skip previous_0
+      name: ButaoVerMaisCanva2_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 51
-        width: 68
-        height: 92
+        x: 0
+        y: 0
+        width: 580
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b273319e08617e6f0800000000000000
-      internalID: -655530477837142229
+      spriteID: 1cf40c7dd7c782350800000000000000
+      internalID: 5992176184148905921
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Skip previous_0: -655530477837142229
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

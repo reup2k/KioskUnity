@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vinil png_0: 1712958456550805855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
