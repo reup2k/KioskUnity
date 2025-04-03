@@ -23,11 +23,13 @@ public class MusicController : MonoBehaviour
     [SerializeField] private float needleRotationSpeed = 5f; // Speed of needle rotation
     [SerializeField] private float rotationSpeed = 100f; // Maximum rotation speed
     [SerializeField] private float rotationAcceleration = 2f; // Speed of acceleration/deceleration
+    [SerializeField] private Slider musicProgressSlider; // Barra de progresso da música
 
     private List<TrackData> tracks = new List<TrackData>();
     private int currentTrackIndex = 0;
     private bool isPlaying = false;
     private float currentRotationSpeed = 0f; // Current rotation speed
+    private bool isScrubbing = false; // Flag to check if the user is scrubbing
 
     private void Start()
     {
@@ -44,6 +46,11 @@ public class MusicController : MonoBehaviour
         if (previousButton != null)
         {
             previousButton.onClick.AddListener(PreviousTrack);
+        }
+
+        if (musicProgressSlider != null)
+        {
+            musicProgressSlider.onValueChanged.AddListener(OnMusicProgressChanged);
         }
 
         // Example tracks (you can replace these with your own data)
@@ -100,13 +107,28 @@ public class MusicController : MonoBehaviour
 
     private void Update()
     {
-        // Smoothly rotate all objects in the list if music is playing
-        foreach (var rotatingObject in rotatingObjects)
+        // Smoothly rotate all objects if music is playing
+        if (rotatingObjects != null && rotatingObjects.Count > 0)
         {
-            if (rotatingObject != null)
+            foreach (var rotatingObject in rotatingObjects)
             {
-                rotatingObject.Rotate(Vector3.forward * currentRotationSpeed * Time.deltaTime);
+                if (rotatingObject != null)
+                {
+                    rotatingObject.Rotate(Vector3.forward * currentRotationSpeed * Time.deltaTime);
+                }
             }
+        }
+
+        // Update the music progress bar only if the user is not scrubbing
+        if (audioSource != null && musicProgressSlider != null && audioSource.clip != null && !isScrubbing)
+        {
+            musicProgressSlider.value = audioSource.time / audioSource.clip.length;
+        }
+
+        // Check if the music has finished playing and switch to the next track
+        if (audioSource != null && !audioSource.isPlaying && isPlaying && audioSource.time >= audioSource.clip.length)
+        {
+            NextTrack();
         }
     }
 
@@ -125,11 +147,21 @@ public class MusicController : MonoBehaviour
         }
 
         currentTrackIndex = index;
+
+        // Set the track name to "Loading..." while the track is being prepared
+        if (trackNameText != null)
+        {
+            trackNameText.text = "A Carregar Audio...";
+        }
+
         StartCoroutine(LoadAudioClip(tracks[index].FileURL));
         StartCoroutine(LoadAlbumImage(tracks[index].AlbumImageURL));
 
-        trackNameText.text = tracks[index].Name;
-        authorNameText.text = tracks[index].Author;
+        // Update the author name immediately
+        if (authorNameText != null)
+        {
+            authorNameText.text = tracks[index].Author;
+        }
     }
 
     private IEnumerator LoadAudioClip(string url)
@@ -146,6 +178,13 @@ public class MusicController : MonoBehaviour
             UpdatePlayPauseIcon();
             StartCoroutine(RotateNeedle(needlePlayRotation));
             StartCoroutine(SmoothStartRotation());
+
+            // Set the track name to the actual track name when the audio starts playing
+            if (trackNameText != null)
+            {
+                trackNameText.text = tracks[currentTrackIndex].Name;
+            }
+
             Debug.Log("Audio is playing!");
         }
         else
@@ -266,6 +305,16 @@ public class MusicController : MonoBehaviour
             yield return null;
         }
         currentRotationSpeed = 0f; // Ensure it stops completely
+    }
+
+    private void OnMusicProgressChanged(float value)
+    {
+        if (audioSource != null && audioSource.clip != null)
+        {
+            isScrubbing = true; // Set scrubbing flag to true
+            audioSource.time = value * audioSource.clip.length; // Seek to the new position
+            isScrubbing = false; // Reset scrubbing flag
+        }
     }
 }
 
