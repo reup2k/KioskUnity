@@ -75,7 +75,7 @@ public class MusicController : MonoBehaviour
             Name = "N95",
             Author = "Kendrick Lamar",
             FileURL = "https://drive.google.com/uc?export=download&id=1gCKot1qI57QJ90mxPAfFuZeleWQhE7nh",
-            AlbumImageURL = "https://genius.com/Genius-brasil-traducoes-kendrick-lamar-n95-traducao-em-portugues-lyrics"
+            AlbumImageURL = "https://t2.genius.com/unsafe/194x194/https%3A%2F%2Fimages.genius.com%2F2f8cae9b56ed9c643520ef2fd62cd378.1000x1000x1.png"
         });
 
         tracks.Add(new TrackData
@@ -100,6 +100,143 @@ public class MusicController : MonoBehaviour
             Author = "Future",
             FileURL = "https://drive.google.com/uc?export=download&id=1WdG2wguiBHvCqfN6Y_ObKcus_sxbG57G",
             AlbumImageURL = "https://t2.genius.com/unsafe/425x425/https%3A%2F%2Fimages.genius.com%2Fc07c1aa672e8578e2a5b34cc2b005d40.1000x1000x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "GOT DAMN",
+            Author = "Gunna",
+            FileURL = "https://drive.google.com/uc?export=download&id=1cd2bjDAVzsdFxR0idCEFESLCh681bUG0",
+            AlbumImageURL = "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F78aeff6ead193177f72596016bc71c84.500x500x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "Sing About me I'm Dying of Thirst",
+            Author = "Kendrick Lamar",
+            FileURL = "https://drive.google.com/uc?export=download&id=1cpFbqOehjPX0u5hrZf3VJt08HKkikPDR",
+            AlbumImageURL = "https://t2.genius.com/unsafe/425x425/https%3A%2F%2Fimages.genius.com%2Fb4d6d87f080c362200ce55ed35ec65bb.1000x1000x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "ss",
+            Author = "Ken Carson",
+            FileURL = "https://drive.google.com/uc?export=download&id=15kE6PycMdH0C4dTum6WqIm2q6prkjLeA",
+            AlbumImageURL = "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F8b454f160a18386800e044deb3b99826.1000x1000x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "Denial is a river",
+            Author = "Doechii",
+            FileURL = "https://drive.google.com/uc?export=download&id=19ELaTKQktVOIdqALM--6gWyed8B5qrB2",
+            AlbumImageURL = "https://t2.genius.com/unsafe/425x425/https%3A%2F%2Fimages.genius.com%2Fa899e6cbe67695bfa7e2a716c50d7583.1000x1000x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "BACKDOOR",
+            Author = "Playboi Carti",
+            FileURL = "https://drive.google.com/uc?export=download&id=10ZnZ4RtqA0FMHQr0OWh9tZktFYqBG6ed",
+            AlbumImageURL = "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F84387c03968c8d51fd8be652624f112a.1000x1000x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "OUTWEST",
+            Author = "JACKBOYS and Travis Scott",
+            FileURL = "https://drive.google.com/uc?export=download&id=1wraEyquM8a_S_BkZK0nizRPHqAvJF45D",
+            AlbumImageURL = "https://t2.genius.com/unsafe/425x425/https%3A%2F%2Fimages.genius.com%2Fae2e8ef74082a5c8240ca1867a6abae7.906x906x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "No Pole",
+            Author = "Don Toliver",
+            FileURL = "https://drive.google.com/uc?export=download&id=1EAmzqIpqU57Tlo2uIj2L-n7lJxC8JPWw",
+            AlbumImageURL = "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2Fb7300a9c092294d918b149a750c65579.999x999x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "Get You",
+            Author = "Daniel Ceaser",
+            FileURL = "https://drive.google.com/uc?export=download&id=1lHI6muDK0XgNhM36GY5Xa8nxNE1qyicX",
+            AlbumImageURL = "https://t2.genius.com/unsafe/425x425/https%3A%2F%2Fimages.genius.com%2F339757a068c3f5c7f231dcc66e174dbd.500x500x1.jpg"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "Yebba’s Heartbreak",
+            Author = "Drake & Yebba",
+            FileURL = "https://drive.google.com/uc?export=download&id=1qDDTu8wpkONB2XwTSwEhUEJzg475F7fm",
+            AlbumImageURL = "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2Ffa02d8bc4c7ee74b5a1408c2be032fea.1000x1000x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "Ordinary World",
+            Author = "Duran Duran",
+            FileURL = "https://drive.google.com/uc?export=download&id=1E_wPsmo-0nEHmjHxcab2gBODYgRpMWm8",
+            AlbumImageURL = "https://t2.genius.com/unsafe/425x425/https%3A%2F%2Fimages.genius.com%2Fea86cc63dd332aed64181cbdb05802f1.980x1000x1.jpg"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "Wish",
+            Author = "Trippie Redd",
+            FileURL = "https://drive.google.com/uc?export=download&id=1jcfVUAhGqFRnD-TAwd9nLDMwCuQMhSrS",
+            AlbumImageURL = "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F862dcd7eb8f08acd6279f600b3b20cdd.1000x1000x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "Creep",
+            Author = "Radiohead",
+            FileURL = "https://drive.google.com/uc?export=download&id=1XCYZO53G_rKF2QT5yCUK7c6Z4ghr9Tag",
+            AlbumImageURL = "https://t2.genius.com/unsafe/425x425/https%3A%2F%2Fimages.genius.com%2F3e947d45997532b243ccd37bde484492.800x800x1.png"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "Like a Tattoo",
+            Author = "Sade",
+            FileURL = "https://drive.google.com/uc?export=download&id=1-re9y_-IUx1UATakG--1Mdi20rrrFqmX",
+            AlbumImageURL = "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F9f56e2b608e7164a504b3373cc507c9d.600x600x1.png"
+        });
+
+
+        tracks.Add(new TrackData
+        {
+            Name = "One wish",
+            Author = "Ray J",
+            FileURL = "https://drive.google.com/uc?export=download&id=1tOaMTJNVGItM55FmVMtuBOWq57KdYwN6",
+            AlbumImageURL = "https://t2.genius.com/unsafe/425x425/https%3A%2F%2Fimages.genius.com%2Fa836243c9c3fb292362907271e3a2137.640x640x1.jpg"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "Sozinho",
+            Author = "Caetano Veloso",
+            FileURL = "https://drive.google.com/uc?export=download&id=1djAAxpjFn939AzX11t4o1mvMLsdkSJ6b",
+            AlbumImageURL = "https://t2.genius.com/unsafe/425x425/https%3A%2F%2Fimages.genius.com%2F9c853f0e9b33eb484ca1610bd8743243.1000x994x1.jpg"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "LVL",
+            Author = "A$AP Rocky",
+            FileURL = "https://drive.google.com/uc?export=download&id=1qiuZ_J9awos4Q-MWXEhsBMHBq_Ven1M2",
+            AlbumImageURL = "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F6077103e9d38a005bdae189d39d96c17.1000x1000x1.jpg"
+        });
+
+        tracks.Add(new TrackData
+        {
+            Name = "Die for You",
+            Author = "The Weekend",
+            FileURL = "https://drive.google.com/uc?export=download&id=1QbN20swAoXN92nUQm0mBNvkCBaWbda0T",
+            AlbumImageURL = "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F6077103e9d38a005bdae189d39d96c17.1000x1000x1.jpg"
         });
 
         PlayTrack(0); // Start with the first track
