@@ -14,22 +14,22 @@ public class MusicController : MonoBehaviour
     [SerializeField] private Button nextButton;
     [SerializeField] private Button previousButton;
     [SerializeField] private TMP_Text trackNameText;
-    [SerializeField] private TMP_Text authorNameText; // Field for author name
-    [SerializeField] private List<Image> albumImages; // List of album cover images
-    [SerializeField] private List<Transform> rotatingObjects; // List of objects to rotate when music is playing
-    [SerializeField] private Transform needle; // Needle to rotate when starting/stopping music
-    [SerializeField] private Vector3 needleStartRotation; // Rotation of the needle when music is stopped
-    [SerializeField] private Vector3 needlePlayRotation; // Rotation of the needle when music is playing
-    [SerializeField] private float needleRotationSpeed = 5f; // Speed of needle rotation
-    [SerializeField] private float rotationSpeed = 100f; // Maximum rotation speed
-    [SerializeField] private float rotationAcceleration = 2f; // Speed of acceleration/deceleration
-    [SerializeField] private Slider musicProgressSlider; // Barra de progresso da música
+    [SerializeField] private TMP_Text authorNameText;
+    [SerializeField] private List<Image> albumImages;
+    [SerializeField] private List<Transform> rotatingObjects;
+    [SerializeField] private Transform needle;
+    [SerializeField] private Vector3 needleStartRotation;
+    [SerializeField] private Vector3 needlePlayRotation;
+    [SerializeField] private float needleRotationSpeed = 5f;
+    [SerializeField] private float rotationSpeed = 100f;
+    [SerializeField] private float rotationAcceleration = 2f;
+    [SerializeField] private Slider musicProgressSlider;
 
     private List<TrackData> tracks = new List<TrackData>();
     private int currentTrackIndex = 0;
     private bool isPlaying = false;
-    private float currentRotationSpeed = 0f; // Current rotation speed
-    private bool isScrubbing = false; // Flag to check if the user is scrubbing
+    private float currentRotationSpeed = 0f;
+    private bool isScrubbing = false;
 
     private void Start()
     {
@@ -53,6 +53,15 @@ public class MusicController : MonoBehaviour
             musicProgressSlider.onValueChanged.AddListener(OnMusicProgressChanged);
         }
 
+        // Adicione os dados das músicas aqui
+        AddTracks();
+
+        PlayTrack(0); // Start with the first track
+    }
+
+
+    private void AddTracks()
+    {
         // Example tracks (you can replace these with your own data)
         tracks.Add(new TrackData
         {
@@ -244,7 +253,6 @@ public class MusicController : MonoBehaviour
 
     private void Update()
     {
-        // Smoothly rotate all objects if music is playing
         if (rotatingObjects != null && rotatingObjects.Count > 0)
         {
             foreach (var rotatingObject in rotatingObjects)
@@ -256,50 +264,60 @@ public class MusicController : MonoBehaviour
             }
         }
 
-        // Update the music progress bar only if the user is not scrubbing
         if (audioSource != null && musicProgressSlider != null && audioSource.clip != null && !isScrubbing)
         {
             musicProgressSlider.value = audioSource.time / audioSource.clip.length;
         }
 
-        // Check if the music has finished playing and switch to the next track
         if (audioSource != null && !audioSource.isPlaying && isPlaying && audioSource.time >= audioSource.clip.length)
         {
             NextTrack();
         }
     }
 
-    private void PlayTrack(int index)
+    private Coroutine loadAudioCoroutine;
+private Coroutine loadImageCoroutine;
+
+private void PlayTrack(int index)
+{
+    if (tracks.Count == 0)
     {
-        if (tracks.Count == 0)
-        {
-            Debug.LogWarning("No tracks available to play.");
-            return;
-        }
-
-        if (index < 0 || index >= tracks.Count)
-        {
-            Debug.LogWarning("Invalid track index: " + index);
-            return;
-        }
-
-        currentTrackIndex = index;
-
-        // Set the track name to "Loading..." while the track is being prepared
-        if (trackNameText != null)
-        {
-            trackNameText.text = "A Carregar Audio...";
-        }
-
-        StartCoroutine(LoadAudioClip(tracks[index].FileURL));
-        StartCoroutine(LoadAlbumImage(tracks[index].AlbumImageURL));
-
-        // Update the author name immediately
-        if (authorNameText != null)
-        {
-            authorNameText.text = tracks[index].Author;
-        }
+        Debug.LogWarning("No tracks available to play.");
+        return;
     }
+
+    if (index < 0 || index >= tracks.Count)
+    {
+        Debug.LogWarning("Invalid track index: " + index);
+        return;
+    }
+
+    currentTrackIndex = index;
+
+    if (trackNameText != null)
+    {
+        trackNameText.text = "A Carregar Audio...";
+    }
+
+    // Cancel previous coroutines if they are running
+    if (loadAudioCoroutine != null)
+    {
+        StopCoroutine(loadAudioCoroutine);
+    }
+    if (loadImageCoroutine != null)
+    {
+        StopCoroutine(loadImageCoroutine);
+    }
+
+    // Start new coroutines
+    loadAudioCoroutine = StartCoroutine(LoadAudioClip(tracks[index].FileURL));
+    loadImageCoroutine = StartCoroutine(LoadAlbumImage(tracks[index].AlbumImageURL));
+
+    if (authorNameText != null)
+    {
+        authorNameText.text = tracks[index].Author;
+    }
+}
 
     private IEnumerator LoadAudioClip(string url)
     {
@@ -316,7 +334,6 @@ public class MusicController : MonoBehaviour
             StartCoroutine(RotateNeedle(needlePlayRotation));
             StartCoroutine(SmoothStartRotation());
 
-            // Set the track name to the actual track name when the audio starts playing
             if (trackNameText != null)
             {
                 trackNameText.text = tracks[currentTrackIndex].Name;
@@ -340,7 +357,6 @@ public class MusicController : MonoBehaviour
             Texture2D texture = DownloadHandlerTexture.GetContent(request);
             Sprite albumSprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.one * 0.5f);
 
-            // Update all album images in the list
             foreach (var image in albumImages)
             {
                 if (image != null)
@@ -431,7 +447,7 @@ public class MusicController : MonoBehaviour
             currentRotationSpeed += rotationAcceleration * Time.deltaTime;
             yield return null;
         }
-        currentRotationSpeed = rotationSpeed; // Ensure it reaches the target speed
+        currentRotationSpeed = rotationSpeed;
     }
 
     private IEnumerator SmoothStopRotation()
@@ -441,16 +457,16 @@ public class MusicController : MonoBehaviour
             currentRotationSpeed -= rotationAcceleration * Time.deltaTime;
             yield return null;
         }
-        currentRotationSpeed = 0f; // Ensure it stops completely
+        currentRotationSpeed = 0f;
     }
 
     private void OnMusicProgressChanged(float value)
     {
         if (audioSource != null && audioSource.clip != null)
         {
-            isScrubbing = true; // Set scrubbing flag to true
-            audioSource.time = value * audioSource.clip.length; // Seek to the new position
-            isScrubbing = false; // Reset scrubbing flag
+            isScrubbing = true;
+            audioSource.time = value * audioSource.clip.length;
+            isScrubbing = false;
         }
     }
 }
