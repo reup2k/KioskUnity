@@ -1,0 +1,914 @@
+fileFormatVersion: 2
+guid: 28257b053c1f74f45899c5613d6e2aae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7028022273738422984
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._0"
+  - first:
+      213: -2294474021202708972
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._1"
+  - first:
+      213: 3326772881508611393
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._2"
+  - first:
+      213: 395116968255541915
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._3"
+  - first:
+      213: -5285946360559693638
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._4"
+  - first:
+      213: -4119234531143088429
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._5"
+  - first:
+      213: -8380497312091454321
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._6"
+  - first:
+      213: -4134066039104220703
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._7"
+  - first:
+      213: -394259386047691297
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._8"
+  - first:
+      213: -4674731787944102149
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._9"
+  - first:
+      213: 3116059648126568962
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._10"
+  - first:
+      213: -3812263654676450394
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._11"
+  - first:
+      213: 6295348404130715381
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._12"
+  - first:
+      213: -5955311528089337223
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._13"
+  - first:
+      213: 6305156298984863809
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._14"
+  - first:
+      213: -8544133106652497103
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._15"
+  - first:
+      213: -8048004672591836194
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._16"
+  - first:
+      213: -4622805078788517075
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._17"
+  - first:
+      213: -316506121687205337
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._18"
+  - first:
+      213: 9097669245071958604
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._19"
+  - first:
+      213: 8082564952169583756
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._20"
+  - first:
+      213: 728290826846538880
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._21"
+  - first:
+      213: -2220570696642335787
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._22"
+  - first:
+      213: -3529018638814832677
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._23"
+  - first:
+      213: 2532064005564844599
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._24"
+  - first:
+      213: -7670703641809115015
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._25"
+  - first:
+      213: -6967579436572967637
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._26"
+  - first:
+      213: 8755159314736454069
+    second: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+      por favor clique aqui._27"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca36bb950d888160800000000000000
+      internalID: 7028022273738422984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._1"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 27
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416b9dbc8046820e0800000000000000
+      internalID: -2294474021202708972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._2"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 27
+        width: 77
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14539ba4f421b2e20800000000000000
+      internalID: 3326772881508611393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._3"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 27
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92d9990accbb7500800000000000000
+      internalID: 395116968255541915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._4"
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 23
+        width: 78
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0121d8acb84a6b0800000000000000
+      internalID: -5285946360559693638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._5"
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 27
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d681b0c40a85d6c0800000000000000
+      internalID: -4119234531143088429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._6"
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 27
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f844cafa81e72bb80800000000000000
+      internalID: -8380497312091454321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._7"
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 27
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1df2537d8d0a6c0800000000000000
+      internalID: -4134066039104220703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._8"
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 27
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd583416d2f478af0800000000000000
+      internalID: -394259386047691297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._9"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 27
+        width: 71
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf67d57e434002fb0800000000000000
+      internalID: -4674731787944102149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._10"
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 27
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a43898db77e3b20800000000000000
+      internalID: 3116059648126568962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._11"
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 27
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3b0e0876e181bc0800000000000000
+      internalID: -3812263654676450394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._12"
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 27
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f69885f4029d5750800000000000000
+      internalID: 6295348404130715381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._13"
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 27
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9724271c7bb7a5da0800000000000000
+      internalID: -5955311528089337223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._14"
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 28
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1483f4e6f3a608750800000000000000
+      internalID: 6305156298984863809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._15"
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 27
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bb25055342d6980800000000000000
+      internalID: -8544133106652497103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._16"
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 27
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbca73f36ebf4090800000000000000
+      internalID: -8048004672591836194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._17"
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 3
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2350f4064f78dfb0800000000000000
+      internalID: -4622805078788517075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._18"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72af897fb5b8b9bf0800000000000000
+      internalID: -316506121687205337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._19"
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42a2841af9614e70800000000000000
+      internalID: 9097669245071958604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._20"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 79
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c841710300a0b2070800000000000000
+      internalID: 8082564952169583756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._21"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c0d5bf5a86b1a00800000000000000
+      internalID: 728290826846538880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._22"
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3
+        width: 60
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbedfb67b2fe21e0800000000000000
+      internalID: -2220570696642335787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._23"
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd795bbde38660fc0800000000000000
+      internalID: -3529018638814832677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._24"
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 51
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ace303cc2b32320800000000000000
+      internalID: 2532064005564844599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._25"
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9782caccdaf2c8590800000000000000
+      internalID: -7670703641809115015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._26"
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 3
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d70c21b6f2e4f90800000000000000
+      internalID: -6967579436572967637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o,
+        por favor clique aqui._27"
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b991da8203908970800000000000000
+      internalID: 8755159314736454069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._0": 7028022273738422984
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._1": -2294474021202708972
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._10": 3116059648126568962
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._11": -3812263654676450394
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._12": 6295348404130715381
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._13": -5955311528089337223
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._14": 6305156298984863809
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._15": -8544133106652497103
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._16": -8048004672591836194
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._17": -4622805078788517075
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._18": -316506121687205337
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._19": 9097669245071958604
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._2": 3326772881508611393
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._20": 8082564952169583756
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._21": 728290826846538880
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._22": -2220570696642335787
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._23": -3529018638814832677
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._24": 2532064005564844599
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._25": -7670703641809115015
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._26": -6967579436572967637
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._27": 8755159314736454069
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._3": 395116968255541915
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._4": -5285946360559693638
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._5": -4119234531143088429
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._6": -8380497312091454321
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._7": -4134066039104220703
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._8": -394259386047691297
+      "Se na\u0303o estiver a conseguir encontrar o vinil na sua localizac\u0327a\u0303o, por favor clique aqui._9": -4674731787944102149
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

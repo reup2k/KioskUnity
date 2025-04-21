@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic; // Add this for using Stack
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,7 @@ public class ChangeToCanvas : MonoBehaviour
 
     private Canvas currentCanvas;
     private float inactivityTimer;
+    private Stack<Canvas> canvasHistory = new Stack<Canvas>(); // Stack to track canvas history
 
     private void Start()
     {
@@ -49,12 +51,32 @@ public class ChangeToCanvas : MonoBehaviour
             return;
 
         Canvas newCanvas = canvases[canvasIndex];
+
+        // Push the current canvas to the history stack before changing
+        if (currentCanvas != null)
+        {
+            canvasHistory.Push(currentCanvas);
+        }
+
         StartCoroutine(SmoothTransition(currentCanvas, newCanvas));
 
         currentCanvas = newCanvas;
 
         // Reset the inactivity timer
         inactivityTimer = inactivityTime;
+    }
+
+    public void GoBackToLastCanvas()
+    {
+        if (canvasHistory.Count > 0)
+        {
+            Canvas lastCanvas = canvasHistory.Pop();
+            StartCoroutine(SmoothTransition(currentCanvas, lastCanvas));
+            currentCanvas = lastCanvas;
+
+            // Reset the inactivity timer
+            inactivityTimer = inactivityTime;
+        }
     }
 
     private IEnumerator SmoothTransition(Canvas fromCanvas, Canvas toCanvas)
